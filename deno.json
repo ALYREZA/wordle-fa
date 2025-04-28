@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "NODE_ENV=development deno run --allow-net --allow-env --env-file --watch bot.ts",
+    "build": "NODE_ENV=production deno run --allow-net --allow-env --env-file main.ts build"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
