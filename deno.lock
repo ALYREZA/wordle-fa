@@ -1,5 +1,22 @@
 {
   "version": "4",
+  "specifiers": {
+    "jsr:@openai/openai@^4.96.0": "4.96.0",
+    "npm:zod@3": "3.24.3"
+  },
+  "jsr": {
+    "@openai/openai@4.96.0": {
+      "integrity": "51eac6d9f0ce55f5c84d99a1073492ef118d645d0383cda0eb1263d7612e23ed",
+      "dependencies": [
+        "npm:zod"
+      ]
+    }
+  },
+  "npm": {
+    "zod@3.24.3": {
+      "integrity": "sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg=="
+    }
+  },
   "remote": {
     "https://cdn.skypack.dev/-/debug@v4.3.4-o4liVvMlOnQWbLSYZMXw/dist=es2019,mode=imports/optimized/debug.js": "671100993996e39b501301a87000607916d4d2d9f8fc8e9c5200ae5ba64a1389",
     "https://cdn.skypack.dev/-/ms@v2.1.2-giBDZ1IA5lmQ3ZXaa87V/dist=es2019,mode=imports/optimized/ms.js": "fd88e2d51900437011f1ad232f3393ce97db1b87a7844b3c58dd6d65562c1276",
@@ -49,7 +66,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1"
+      "jsr:@openai/openai@^4.96.0"
     ]
   }
 }
