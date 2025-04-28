@@ -18,7 +18,7 @@ bot.on("message", (ctx) => ctx.reply(`Got another message! ${ctx.message.text}`)
 // This will connect to the Telegram servers and wait for messages.
 
 // Start the bot.
-console.log("Bot is running...", isDev);
+console.log("Bot is running...");
 
 
 if (isDev) {
